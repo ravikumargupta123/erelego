@@ -4,6 +4,7 @@
 $(document).ready(function(){
 	$("#submita").click(function(e){
 		e.preventDefault();
+		e.preventDefault();
 			var user = $("#user").val();
 			var pass = $("#pass").val();
 			var email = $("#email").val();
